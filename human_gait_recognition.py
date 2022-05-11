@@ -15,8 +15,6 @@ def get_data(path, threshold, activity_type, from_row, to_row, from_col = 0, win
     """
     Function that retrieves IMU data from a file.
 
-    :activity_type: 1 or 2 (walking or running)
-    :return: dataframe
     """ 
     new_step = False
     x_steps_gyro = []
